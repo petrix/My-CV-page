@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    &:active,
+    &:hover,
+    &:focus {
+        outline: 0;
+    }
+}
+
+html {
+    height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+body {
+    background-color: get-color(global, body-bg-color);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

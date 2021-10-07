@@ -1,0 +1,23 @@
+@import'./variables';
+@font-face {
+    font-family: 'Roboto';
+    src: url('#{$base-font-dir}Roboto-Regular.eot');
+    src: url('#{$base-font-dir}Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('#{$base-font-dir}Roboto-Regular.woff2') format('woff2'), url('#{$base-font-dir}Roboto-Regular.woff') format('woff'), url('#{$base-font-dir}Roboto-Regular.ttf') format('truetype'), url('#{$base-font-dir}Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('#{$base-font-dir}Roboto-Bold.eot');
+    src: url('#{$base-font-dir}Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('#{$base-font-dir}Roboto-Bold.woff2') format('woff2'), url('#{$base-font-dir}Roboto-Bold.woff') format('woff'), url('#{$base-font-dir}Roboto-Bold.ttf') format('truetype'), url('#{$base-font-dir}Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('#{$base-font-dir}Roboto-Medium.eot');
+    src: url('#{$base-font-dir}Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('#{$base-font-dir}Roboto-Medium.woff2') format('woff2'), url('#{$base-font-dir}Roboto-Medium.woff') format('woff'), url('#{$base-font-dir}Roboto-Medium.ttf') format('truetype'), url('#{$base-font-dir}Roboto-Medium.svg#Roboto-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}

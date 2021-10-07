@@ -1,0 +1,27 @@
+{
+    "name": "My-CV-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "cv.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/petrix/My-CV-page.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/petrix/My-CV-page/issues"
+    },
+    "homepage": "https://github.com/petrix/My-CV-page#readme",
+    "devDependencies": {
+        "bootstrap": "^5.1.2",
+        "sass": "^1.42.1",
+        "vite": "^2.6.4"
+    }
+}

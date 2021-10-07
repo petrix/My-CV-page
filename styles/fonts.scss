@@ -1,0 +1,243 @@
+@import'./variables';
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-Regular.eot');
+    src: url('#{$base-font-dir}Russia-Regular.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-Regular.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-Regular.woff') format('woff'),
+    url('#{$base-font-dir}Russia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-BoldItalic.eot');
+    src: url('#{$base-font-dir}Russia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-BoldItalic.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-BoldItalic.woff') format('woff'),
+    url('#{$base-font-dir}Russia-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-LightItalic.eot');
+    src: url('#{$base-font-dir}Russia-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-LightItalic.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-LightItalic.woff') format('woff'),
+    url('#{$base-font-dir}Russia-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-MediumItalic.eot');
+    src: url('#{$base-font-dir}Russia-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-MediumItalic.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-MediumItalic.woff') format('woff'),
+    url('#{$base-font-dir}Russia-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-Medium.eot');
+    src: url('#{$base-font-dir}Russia-Medium.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-Medium.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-Medium.woff') format('woff'),
+    url('#{$base-font-dir}Russia-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-Bold.eot');
+    src: url('#{$base-font-dir}Russia-Bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-Bold.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-Bold.woff') format('woff'),
+    url('#{$base-font-dir}Russia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-Light.eot');
+    src: url('#{$base-font-dir}Russia-Light.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-Light.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-Light.woff') format('woff'),
+    url('#{$base-font-dir}Russia-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Russia';
+    src: url('#{$base-font-dir}Russia-Italic.eot');
+    src: url('#{$base-font-dir}Russia-Italic.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Russia-Italic.woff2') format('woff2'),
+    url('#{$base-font-dir}Russia-Italic.woff') format('woff'),
+    url('#{$base-font-dir}Russia-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+// @font-face {
+//     font-family: 'Comfortaa';
+//     src: url('#{$base-font-dir}Comfortaa-Light.eot');
+//     src: url('#{$base-font-dir}Comfortaa-Light.eot?#iefix') format('embedded-opentype'),
+//     url('#{$base-font-dir}Comfortaa-Light.woff2') format('woff2'),
+//     url('#{$base-font-dir}Comfortaa-Light.woff') format('woff'),
+//     url('#{$base-font-dir}Comfortaa-Light.ttf') format('truetype'),
+//     url('#{$base-font-dir}Comfortaa-Light.svg#Comfortaa-Light') format('svg');
+//     font-weight: 300;
+//     font-style: normal;
+// }
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('#{$base-font-dir}Comfortaa-Regular.eot');
+    src: url('#{$base-font-dir}Comfortaa-Regular.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Comfortaa-Regular.woff2') format('woff2'),
+    url('#{$base-font-dir}Comfortaa-Regular.woff') format('woff'),
+    url('#{$base-font-dir}Comfortaa-Regular.ttf') format('truetype'),
+    url('#{$base-font-dir}Comfortaa-Regular.svg#Comfortaa-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('#{$base-font-dir}Comfortaa-Bold.eot');
+    src: url('#{$base-font-dir}Comfortaa-Bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}Comfortaa-Bold.woff2') format('woff2'),
+    url('#{$base-font-dir}Comfortaa-Bold.woff') format('woff'),
+    url('#{$base-font-dir}Comfortaa-Bold.ttf') format('truetype'),
+    url('#{$base-font-dir}Comfortaa-Bold.svg#Comfortaa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Jura';
+    src: url('#{$base-font-dir}/jura-font/Jura-Bold.eot');
+    src: url('#{$base-font-dir}/jura-font/Jura-Bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/jura-font/Jura-Bold.woff2') format('woff2'),
+    url('#{$base-font-dir}/jura-font/Jura-Bold.woff') format('woff'),
+    url('#{$base-font-dir}/jura-font/Jura-Bold.ttf') format('truetype'),
+    url('#{$base-font-dir}/jura-font/Jura-Bold.svg#Jura-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('#{$base-font-dir}/jura-font/Jura-Medium.eot');
+    src: url('#{$base-font-dir}/jura-font/Jura-Medium.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/jura-font/Jura-Medium.woff2') format('woff2'),
+    url('#{$base-font-dir}/jura-font/Jura-Medium.woff') format('woff'),
+    url('#{$base-font-dir}/jura-font/Jura-Medium.ttf') format('truetype'),
+    url('#{$base-font-dir}/jura-font/Jura-Medium.svg#Jura-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('#{$base-font-dir}/jura-font/Jura-Regular.eot');
+    src: url('#{$base-font-dir}/jura-font/Jura-Regular.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/jura-font/Jura-Regular.woff2') format('woff2'),
+    url('#{$base-font-dir}/jura-font/Jura-Regular.woff') format('woff'),
+    url('#{$base-font-dir}/jura-font/Jura-Regular.ttf') format('truetype'),
+    url('#{$base-font-dir}/jura-font/Jura-Regular.svg#Jura-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('#{$base-font-dir}/jura-font/Jura-Light.eot');
+    src: url('#{$base-font-dir}/jura-font/Jura-Light.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/jura-font/Jura-Light.woff2') format('woff2'),
+    url('#{$base-font-dir}/jura-font/Jura-Light.woff') format('woff'),
+    url('#{$base-font-dir}/jura-font/Jura-Light.ttf') format('truetype'),
+    url('#{$base-font-dir}/jura-font/Jura-Light.svg#Jura-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('#{$base-font-dir}/jura-font/Jura-SemiBold.eot');
+    src: url('#{$base-font-dir}/jura-font/Jura-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/jura-font/Jura-SemiBold.woff2') format('woff2'),
+    url('#{$base-font-dir}/jura-font/Jura-SemiBold.woff') format('woff'),
+    url('#{$base-font-dir}/jura-font/Jura-SemiBold.ttf') format('truetype'),
+    url('#{$base-font-dir}/jura-font/Jura-SemiBold.svg#Jura-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('#{$base-font-dir}/bebas/BebasNeueBook.eot');
+    src: url('#{$base-font-dir}/bebas/BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/bebas/BebasNeueBook.woff2') format('woff2'),
+    url('#{$base-font-dir}/bebas/BebasNeueBook.woff') format('woff'),
+    url('#{$base-font-dir}/bebas/BebasNeueBook.ttf') format('truetype'),
+    url('#{$base-font-dir}/bebas/BebasNeueBook.svg#BebasNeueBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('#{$base-font-dir}/bebas/BebasNeueBold.eot');
+    src: url('#{$base-font-dir}/bebas/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/bebas/BebasNeueBold.woff2') format('woff2'),
+    url('#{$base-font-dir}/bebas/BebasNeueBold.woff') format('woff'),
+    url('#{$base-font-dir}/bebas/BebasNeueBold.ttf') format('truetype'),
+    url('#{$base-font-dir}/bebas/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('#{$base-font-dir}/bebas/BebasNeue-Thin.eot');
+    src: url('#{$base-font-dir}/bebas/BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/bebas/BebasNeue-Thin.woff2') format('woff2'),
+    url('#{$base-font-dir}/bebas/BebasNeue-Thin.woff') format('woff'),
+    url('#{$base-font-dir}/bebas/BebasNeue-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('#{$base-font-dir}/bebas/BebasNeueLight.eot');
+    src: url('#{$base-font-dir}/bebas/BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/bebas/BebasNeueLight.woff2') format('woff2'),
+    url('#{$base-font-dir}/bebas/BebasNeueLight.woff') format('woff'),
+    url('#{$base-font-dir}/bebas/BebasNeueLight.ttf') format('truetype'),
+    url('#{$base-font-dir}/bebas/BebasNeueLight.svg#BebasNeueLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('#{$base-font-dir}/bebas/BebasNeueRegular.eot');
+    src: url('#{$base-font-dir}/bebas/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+    url('#{$base-font-dir}/bebas/BebasNeueRegular.woff2') format('woff2'),
+    url('#{$base-font-dir}/bebas/BebasNeueRegular.woff') format('woff'),
+    url('#{$base-font-dir}/bebas/BebasNeueRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
